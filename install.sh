@@ -8,6 +8,7 @@ ruby extconf.rb
 make
 
 # link the file
+cd $HOME/.vim
 ln -s $PWD/.vimrc $HOME/.vimrc
 
 echo "All build"
