@@ -7,5 +7,8 @@ cd bundle/command-t/ruby/command-t/
 ruby extconf.rb
 make
 
+# link the file
+ln -s $PWD/.vimrc $HOME/.vimrc
+
 echo "All build"
 
