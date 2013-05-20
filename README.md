@@ -3,6 +3,15 @@ dropdownmenu's vimrc
 
 A very easy script to keep .vimrc in the cloud.
 
+deps
+-----
+
+There are a few needed packages before you can start.
+
+```
+sudo apt-get install ruby-dev build-essential vim-* git
+```
+
 install
 -------
 
