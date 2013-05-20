@@ -2,6 +2,9 @@
 git submodule init
 git submodule update
 
+# update with vundle
+vim +BundleInstall +qall
+
 # build command-t
 cd bundle/command-t/ruby/command-t/
 ruby extconf.rb

@@ -1,6 +1,30 @@
-execute pathogen#infect()
-execute pathogen#helptags()
-syntax on
+" vundle stuff
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+Bundle 'tomtom/vimtlib'
+Bundle 'wavded/vim-stylus'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'pangloss/vim-javascript'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'airblade/vim-gitgutter'
+
+Bundle 'git://git.wincent.com/command-t.git'
+
+filetype plugin indent on
+
+
+" pathogen stuff
+" execute pathogen#infect()
+" execute pathogen#helptags()
+" syntax on
 "filetype plugin indent on
 
 set t_Co=256
