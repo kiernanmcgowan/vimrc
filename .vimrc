@@ -20,11 +20,6 @@ Bundle 'git://git.wincent.com/command-t.git'
 
 filetype plugin indent on
 
-
-" pathogen stuff
-" execute pathogen#infect()
-" execute pathogen#helptags()
-" syntax on
 "filetype plugin indent on
 
 set t_Co=256
@@ -38,7 +33,6 @@ colorscheme solarized
 
 " git stuff
 let g:gitgutter_sign_column_always=1
-
 
 " encoding
 set encoding=utf-8

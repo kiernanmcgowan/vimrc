@@ -13,6 +13,7 @@ make
 # link the file
 cd $HOME/.vim
 ln -s $PWD/.vimrc $HOME/.vimrc
+ln -s $PWD/.inputrc $HOME/.inputrc
 
 echo "All build"
 
