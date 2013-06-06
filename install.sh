@@ -14,6 +14,7 @@ make
 cd $HOME/.vim
 ln -s $PWD/.vimrc $HOME/.vimrc
 ln -s $PWD/.inputrc $HOME/.inputrc
+ln -s $PWD/.bashrc $HOME/.bashrc
 
 echo "All build"
 
