@@ -15,6 +15,7 @@ cd $HOME/.vim
 ln -s $PWD/.vimrc $HOME/.vimrc
 ln -s $PWD/.inputrc $HOME/.inputrc
 ln -s $PWD/.bashrc $HOME/.bashrc
+ln -s $PWD/.bash_aliases $HOME/.bash_aliases
 
 echo "All build"
 
