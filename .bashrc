@@ -113,6 +113,6 @@ fi
 [[ -s /home/tim/.nvm/nvm.sh ]] && . /home/tim/.nvm/nvm.sh # This loads NVM
 
 # set the title to the current terminal command
-trap 'echo -en "\e]0;$BASH_COMMAND\007"' DEBUG
+# trap 'echo -en "\e]0;$BASH_COMMAND\007"' DEBUG
 
 
